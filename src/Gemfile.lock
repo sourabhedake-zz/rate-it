@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mongoid/mongoid.git
+  remote: https://github.com/mongoid/mongoid.git
   revision: 63ece9973709a837a1817824d202b367db3e3688
   specs:
     mongoid (5.0.0.beta)
@@ -56,7 +56,7 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
-    bson (3.2.3)
+    bson (3.2.7)
     builder (3.2.4)
     byebug (6.0.2)
     climate_control (0.2.0)
@@ -101,7 +101,9 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.99.3)
-    mimemagic (0.3.5)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     mongo (2.1.0.beta)
@@ -114,7 +116,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    origin (2.1.1)
+    origin (2.3.1)
     orm_adapter (0.5.0)
     paperclip (6.1.0)
       activemodel (>= 4.2.0)
@@ -195,7 +197,7 @@ GEM
     tilt (2.0.1)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (2.7.2)
       execjs (>= 0.3.0)
